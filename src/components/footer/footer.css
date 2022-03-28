@@ -1,0 +1,96 @@
+footer{
+    background: #403d38;
+    color: #969696;
+}
+.footerLinks .paddingY{
+    padding: 1.875rem 0;
+}
+.footerTitle{
+    font-size: 1.25rem;
+    margin-bottom: 1.25rem;
+    color: #fff;
+    font-weight: 300;
+}
+.footerText{
+    font-size: 1.125rem;
+    line-height: 1.86em;
+    margin-bottom: 1.25rem;
+}
+.footerLi{
+    border-bottom: 1px solid #303030;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    display: flex;
+    font-size: 1.4375rem;
+}
+.footerLi i{
+    padding: 5px;
+}
+.copywrite{
+    background: var(--footer-bg);
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    color: #969696;
+}
+.copywrite img{
+    width: 20%;
+    padding: 3.125rem 0 1.25rem;
+    margin: auto;
+}
+.copywrite ul{
+    display: flex;
+    align-items: baseline;
+    padding: 1.25rem 0 3.125rem;
+}
+.socialIcon{
+    background: #484540;
+    color: #8c8a86;
+    padding: 10px;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 20px;
+    margin-right: 5px;
+}
+.socialIcon#facebook:hover{
+    background:#3b5998
+    ;
+    color: var(--white-text);
+}
+.socialIcon#google:hover{
+    background:#DB4437
+    ;
+    color: var(--white-text);
+}
+.socialIcon#linkedin:hover{
+    background:#0e76a8;
+    color: var(--white-text);
+}
+.socialIcon#twitter:hover{
+    background:#1DA1F2;
+    color: var(--white-text);
+}
+@media only screen and (min-width:1024px) {
+    .footerLinks{
+        display: flex;
+    }
+    .about{
+        width: 25%;
+        padding: 0.4375rem;
+    }
+    .special{
+        width: 25%;
+        padding: 0.4375rem;
+    }
+    .hours{
+        width: 25%;
+        padding: 0.4375rem;
+    }
+    .details{
+        width: 25%;
+        padding: 0.4375rem;
+    }
+}
