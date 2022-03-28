@@ -6,35 +6,35 @@ import baking3 from "../../assets/images/baking3.jpeg"
 
 function Baking() {
     return (
-        <section class="baking paddingY">
-            <div class="container flexContainer">
-                <header class="bakingHeader">
-                    <h2 class="title">Our Baking</h2>
-                    <p class="titleDesc">Learn more about them. We have worked truly hard to make them perfect for
+        <section className="baking paddingY">
+            <div className="container flexContainer">
+                <header className="bakingHeader">
+                    <h2 className="title">Our Baking</h2>
+                    <p className="titleDesc">Learn more about them. We have worked truly hard to make them perfect for
                         every
                         use.
                     </p>
                 </header>
-                <div class="bakingItems">
-                    <figure class="bakingItem">
-                        <img src={baking1} alt="" class="bakingImg"/>
-                            <h4 class="bakingTitle">Superior Breads</h4>
+                <div className="bakingItems">
+                    <figure className="bakingItem">
+                        <img src={baking1} alt="" className="bakingImg"/>
+                            <h4 className="bakingTitle">Superior Breads</h4>
                             <figcaption>Proin interdum, ante ut sollicitudin commodo, tellus quam sagittis libero, at
                                 semper
                                 mauris velit a velit. Phasellus commodo turpis et lacinia posuere.
                             </figcaption>
                     </figure>
-                    <figure class="bakingItem">
-                        <img src={baking2} alt="" class="bakingImg"/>
-                            <h4 class="bakingTitle">Bagels</h4>
+                    <figure className="bakingItem">
+                        <img src={baking2} alt="" className="bakingImg"/>
+                            <h4 className="bakingTitle">Bagels</h4>
                             <figcaption>Proin interdum, ante ut sollicitudin commodo, tellus quam sagittis libero, at
                                 semper
                                 mauris velit a velit. Phasellus commodo turpis et lacinia posuere.
                             </figcaption>
                     </figure>
-                    <figure class="bakingItem">
-                        <img src={baking3} alt="" class="bakingImg"/>
-                            <h4 class="bakingTitle">Cookies</h4>
+                    <figure className="bakingItem">
+                        <img src={baking3} alt="" className="bakingImg"/>
+                            <h4 className="bakingTitle">Cookies</h4>
                             <figcaption>Proin interdum, ante ut sollicitudin commodo, tellus quam sagittis libero, at
                                 semper
                                 mauris velit a velit. Phasellus commodo turpis et lacinia posuere.
