@@ -1,4 +1,5 @@
 import React from 'react'
+import "./baking.css"
 import baking1 from "../../assets/images/baking1.jpeg"
 import baking2 from "../../assets/images/baking2.jpeg"
 import baking3 from "../../assets/images/baking3.jpeg"
