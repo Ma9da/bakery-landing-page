@@ -1,6 +1,5 @@
 /***** hero *****/
 .hero{
-    height: 100vh;
     background: linear-gradient(
         rgba(0,0,0,.3), 
         rgba(0,0,0,.3)),url(../../assets/images/hero-img.jpeg) no-repeat 50%;
@@ -25,7 +24,7 @@
 }
 .heroHeader h4, .heroHeader p{
     font-size: 1.5rem;
-    margin-bottom: 2.5rem;
+    margin: 2.5rem 0;
     color: #ccc;
     line-height: 1.86em;
 }
@@ -91,13 +90,19 @@
     box-shadow: 0 0 8px 1px #979797;
     z-index: 999;
 }
-.setting svg{
+.setting i{
     padding: 7px;
 }
 @media only screen and (min-width:1024px) {
     .hero .flexContainer{
-        transform: translateY(26%);
+        transform: translateY(20%);
+        -webkit-transform: translateY(20%);
+        -moz-transform: translateY(20%);
+        -ms-transform: translateY(20%);
+        -o-transform: translateY(20%);
+}
+    .hero{
+        height: 100vh;
     }
-
 }
 /***** End hero *****/
