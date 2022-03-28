@@ -1,3 +1,4 @@
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import About from "./components/about/About";
 import Baking from "./components/baking/Baking";
 import Contact from "./components/contact/Contact";
