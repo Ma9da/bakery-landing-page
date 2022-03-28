@@ -20,7 +20,7 @@ function Hero() {
                     <button class="btn disabled">contact us</button>
                 </div>
                 <button class="scroll">
-                    
+                <a href="#about"></a>
                 </button>
             </div>
         </section>
