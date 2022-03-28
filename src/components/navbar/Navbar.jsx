@@ -1,6 +1,8 @@
 import React from 'react'
 import "./navbar.css"
 import logo from '../../assets/images/logo.png'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faBars } from '@fortawesome/free-solid-svg-icons';
 function Navbar() {
     return (
         <header>
@@ -8,7 +10,7 @@ function Navbar() {
             <div class="container flexContainer">
                 <header class="navHeader">
                     <button class="navToggle">
-                        <i class="fa-solid fa-bars"></i>
+                        <FontAwesomeIcon icon={faBars} />
                     </button>
                     <a href="/" class="navLogo">
                         <img class="logoImg" src={logo} alt="bakery logo"/>

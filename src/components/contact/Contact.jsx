@@ -1,5 +1,7 @@
 import React from 'react'
 import "./contact.css"
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faHeadphonesSimple, faPhoneFlip } from '@fortawesome/free-solid-svg-icons';
 function Contact() {
     return (
         <section class="contact paddingY">
@@ -15,19 +17,19 @@ function Contact() {
                     <p>Our contact details:</p>
                     <ul class="contactList">
                         <li>
-                            <i class="icon fa-solid fa-headphones-simple"></i>
+                            <FontAwesomeIcon className='icon' icon={faHeadphonesSimple} />
                             Manchester St 123-78B, Random 713, UK
                         </li>
                         <li>
-                            <i class="icon fa-solid fa-phone-flip"></i>
+                            <FontAwesomeIcon className='icon' icon={faPhoneFlip} />
                             +46 123 456 789
                         </li>
                         <li>
-                            <i class="icon fa-solid fa-headphones-simple"></i>
+                            <FontAwesomeIcon className='icon' icon={faHeadphonesSimple} />
                             +37 431 456 789
                         </li>
                         <li>
-                            <i class="icon fa-solid fa-headphones-simple"></i>
+                            <FontAwesomeIcon className='icon' icon={faHeadphonesSimple} />
                             hello@sitename.com
                         </li>
                     </ul>

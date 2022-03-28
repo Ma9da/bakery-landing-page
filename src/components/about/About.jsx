@@ -1,12 +1,14 @@
 import React from 'react'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import './about.css'
 import about1 from "../../assets/images/about1.jpeg"
+import { faCheck, faHeart, faUsers } from '@fortawesome/free-solid-svg-icons';
 function About() {
     return (
         <section class="about paddingY">
             <div class="container flexContainer">
                 <figure class="aboutImg">
-                    <img src={about1} alt="fresh baked bread"/>
+                    <img src={about1} alt="fresh baked bread" />
                 </figure>
                 <header class="aboutHeader">
                     <h2 class="title">Who We Are?</h2>
@@ -17,19 +19,19 @@ function About() {
                     </p>
                     <ul class="aboutList">
                         <li>
-                            <i class="icon fa-solid fa-check"></i>
+                            <FontAwesomeIcon className='icon' icon={faCheck} />
                             we care about environment.
                         </li>
                         <li>
-                            <i class="icon fa-solid fa-users"></i>
+                            <FontAwesomeIcon className='icon' icon={faUsers} />
                             we are trusted by hundreds of clients.
                         </li>
                         <li>
-                            <i class="icon fa-solid fa-heart"></i>
+                            <FontAwesomeIcon className='icon' icon={faHeart} />
                             social media loves us!
                         </li>
                         <li>
-                            <i class="icon fa-solid fa-check"></i>
+                            <FontAwesomeIcon className='icon' icon={faCheck} />
                             this list is super easy to create.
                         </li>
                     </ul>

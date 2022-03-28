@@ -23,7 +23,7 @@ footer{
     display: flex;
     font-size: 1.4375rem;
 }
-.footerLi i{
+.footerLi svg{
     padding: 5px;
 }
 .copywrite{

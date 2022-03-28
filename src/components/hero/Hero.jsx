@@ -1,3 +1,5 @@
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faGears, faShoppingCart } from '@fortawesome/free-solid-svg-icons'
 import React from 'react'
 import "./hero.css"
 function Hero() {
@@ -12,8 +14,8 @@ function Hero() {
                     </p>
                 </header>
                 <div class="setting">
-                    <i class="fa-solid fa-gears"></i>
-                    <i class="fa-solid fa-cart-shopping"></i>
+                <FontAwesomeIcon icon={faGears} />
+                <FontAwesomeIcon icon={faShoppingCart} />
                 </div>
                 <div class="heroAction">
                     <button class="btn active">learn more</button>
