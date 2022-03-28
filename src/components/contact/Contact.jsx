@@ -38,7 +38,7 @@ function Contact() {
                     <div className="mapouter">
                         <div className="gmap_canvas"><iframe id="gmap_canvas"
                             src="https://maps.google.com/maps?q=%D9%85%D8%B9%D8%A7%D8%AF%D9%8A%20%D8%AC%D8%B1%D8%A7%D9%86%D8%AF%20%D9%85%D9%88%D9%84&t=k&z=13&ie=UTF8&iwloc=&output=embed"
-                            frameBorder="0" scrolling="no" marginHeight="0" marginWidth="0"></iframe>
+                            title="map" frameBorder="0" scrolling="no" marginHeight="0" marginWidth="0"></iframe>
                             <a href="https://fmovies-online.net"></a>
                             <a href="https://www.embedgooglemap.net">free goggle map</a>
                         </div>

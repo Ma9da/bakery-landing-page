@@ -14,6 +14,7 @@
     line-height: 1.86em;
     margin-bottom: 1.25rem;
     color: var(--gray-text);
+    display: flex;
 }
 iframe#gmap_canvas {
     width: 100%;
