@@ -1,6 +1,7 @@
 import React from 'react'
 import about2 from "../../assets/images/about2.jpeg"
 import "./location.css"
+import "../about/about.css"
 function Location() {
     return (
         <section class="location about paddingY">
