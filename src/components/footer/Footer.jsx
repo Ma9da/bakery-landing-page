@@ -5,7 +5,7 @@ function Footer() {
     return (
         <footer>
             <section class="footerLinks paddingY container">
-                <div class="about">
+                <div class="aboutFooter">
                     <h4 class="footerTitle">About Us</h4>
                     <p class="footerText">
                         I am text block. Click edit button to change this text. Lorem ipsum dolor sit amet, consectetur. I
