@@ -1,0 +1,59 @@
+/***** navbar *****/
+.navbar{
+    background: var(--white-text);
+    padding: 0.8125rem 0;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 99;
+}
+.navbar .flexContainer{
+    justify-content: flex-end;
+}
+.navHeader{
+    display: flex;
+    justify-content: flex-start;
+}
+.navToggle{
+    color: var(--dark-text);
+    background: rgba(0, 0, 0, 0);
+    border: none;
+    font-size: 1.5625rem;
+}
+.navLink a{
+    color: var(--white-text);
+    text-transform: capitalize;
+}
+.navLinks{
+    display: none;
+}
+.navLogo{
+    display: none;
+}
+@media only screen and (min-width:1024px) {
+    .navLinks{
+        display: block;
+        display: flex;
+    }
+    .navLink{
+        padding: 1.875rem 0.9375rem;
+    }
+    .navLink:first-child{
+        border-top: 2px solid var(--primary-bg);
+    }
+    .navLogo{
+        display: block;
+        width: 9.375rem;
+    }
+    .navToggle{
+        display: none;
+    }
+    .navbar .flexContainer {
+        justify-content: space-between;
+    }
+    .navbar{
+        padding: 0;
+        background: rgba(0, 0, 0, 0);
+    }
+}
+/***** End navbar *****/
