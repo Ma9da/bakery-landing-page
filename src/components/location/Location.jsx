@@ -3,11 +3,12 @@ import about2 from "../../assets/images/about2.jpeg"
 import "./location.css"
 import "../about/about.css"
 function Location(props) {
+    const { title, color } = props.location
     return (
         <section className="location about paddingY">
             <div className="container flexContainer">
                 <header className="aboutHeader">
-                    <h2 className="title" style={{ "color": props.location.color }}>{props.location.title}</h2>
+                    <h2 className="title" style={{ "color": color }}>{title}</h2>
                     <p className="titleDesc">
                         We have been operating for over 30 years and are Members of The Federation of Master
                         Builders.

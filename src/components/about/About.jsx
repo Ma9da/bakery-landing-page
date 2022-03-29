@@ -4,6 +4,7 @@ import './about.css'
 import about1 from "../../assets/images/about1.jpeg"
 import { faCheck, faHeart, faUsers } from '@fortawesome/free-solid-svg-icons';
 function About(props) {
+    const {title, color} = props.about
     return (
         <section className="about paddingY">
             <div className="container flexContainer">
@@ -11,7 +12,7 @@ function About(props) {
                     <img src={about1} alt="fresh baked bread" />
                 </figure>
                 <header className="aboutHeader">
-                    <h2 className="title" style={{ "color": props.about.color }}>{props.about.title}</h2>
+                    <h2 className="title" style={{ "color": color }}>{title}</h2>
                     <p className="titleDesc">
                         We have been operating for over 30 years and are Members of The Federation of Master Builders. We work on
                         projects big and small from small residential extensions to full house. We are so happy with this theme.
