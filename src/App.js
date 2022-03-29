@@ -8,15 +8,15 @@ import Navbar from "./components/navbar/Navbar";
 
 function App() {
   return (
-  <>
-  <Navbar/>
-  <Hero/>
-  <About/>
-  <Location/>
-  <Baking/>
-  <Contact/>
-  <Footer/>
-  </>
+    <>
+      <Navbar />
+      <Hero />
+      <About />
+      <Location />
+      <Baking />
+      <Contact />
+      <Footer />
+    </>
   );
 }
 
