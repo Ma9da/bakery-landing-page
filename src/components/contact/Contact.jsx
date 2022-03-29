@@ -2,13 +2,13 @@ import React from 'react'
 import "./contact.css"
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faHeadphonesSimple, faPhoneFlip } from '@fortawesome/free-solid-svg-icons';
-function Contact() {
+function Contact(props) {
     return (
         <section className="contact paddingY">
             <div className="container flexContainer">
                 <div className="contactInfo">
                     <h2 className="title">
-                        Contact Information
+                        {props.contactTitle}
                     </h2>
                     <p className="titleDesc">
                         I am text block. Click edit button to change this text. Lorem ipsum dolor sit amet, consectetur

@@ -4,12 +4,12 @@ import baking1 from "../../assets/images/baking1.jpeg"
 import baking2 from "../../assets/images/baking2.jpeg"
 import baking3 from "../../assets/images/baking3.jpeg"
 
-function Baking() {
+function Baking(props) {
     return (
         <section className="baking paddingY">
             <div className="container flexContainer">
                 <header className="bakingHeader">
-                    <h2 className="title">Our Baking</h2>
+                    <h2 className="title">{props.bakingTitle}</h2>
                     <p className="titleDesc">Learn more about them. We have worked truly hard to make them perfect for
                         every
                         use.

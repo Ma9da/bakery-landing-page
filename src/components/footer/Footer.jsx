@@ -4,12 +4,12 @@ import logo from "../../assets/images/logo.png"
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { fab, faFacebookF, faGooglePlusG, faLinkedinIn, faTwitter } from '@fortawesome/free-brands-svg-icons'
 import { faAngleRight, faEnvelope, faGlobe, faLocationPin, faPhoneFlip } from '@fortawesome/free-solid-svg-icons';
-function Footer() {
+function Footer(props) {
     return (
         <footer>
             <section className="footerLinks paddingY container">
                 <div className="aboutFooter">
-                    <h4 className="footerTitle">About Us</h4>
+                    <h4 className="footerTitle">{props.footerTitle.titleOne}</h4>
                     <p className="footerText">
                         I am text block. Click edit button to change this text. Lorem ipsum dolor sit amet, consectetur. I
                         am text block. Click edit button to change this text. Lorem ipsum dolor sit amet, consectetur.
@@ -19,7 +19,7 @@ function Footer() {
                     </p>
                 </div>
                 <div className="special">
-                    <h4 className="footerTitle">Why We Are Special?</h4>
+                    <h4 className="footerTitle">{props.footerTitle.titleTwo}</h4>
                     <ul>
                         <li className="footerLi"><FontAwesomeIcon icon={faAngleRight} />Our magical recipe.</li>
                         <li className="footerLi"><FontAwesomeIcon icon={faAngleRight} />We care about environment.</li>
@@ -30,7 +30,7 @@ function Footer() {
                     </ul>
                 </div>
                 <div className="hours">
-                    <h4 className="footerTitle">Opening Hours</h4>
+                    <h4 className="footerTitle">{props.footerTitle.titleThree}</h4>
                     <ul>
                         <li className="footerLi"><FontAwesomeIcon icon={faAngleRight} />Monday 10AM - 9PM</li>
                         <li className="footerLi"><FontAwesomeIcon icon={faAngleRight} />Tuesday 10AM - 9PM</li>
@@ -41,7 +41,7 @@ function Footer() {
                     </ul>
                 </div>
                 <div className="details">
-                    <h4 className="footerTitle">Contact Details</h4>
+                    <h4 className="footerTitle">{props.footerTitle.titleFour}</h4>
                     <ul>
                         <li className="footerLi"><FontAwesomeIcon icon={faLocationPin} />Manchester Road 123-78B, Silictown
                             7854MD, Great Country</li>

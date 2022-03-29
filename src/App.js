@@ -7,15 +7,21 @@ import Location from "./components/location/Location";
 import Navbar from "./components/navbar/Navbar";
 
 function App() {
+  const footerTitles = {
+    titleOne: "About us",
+    titleTwo: "Why we are special?",
+    titleThree: "Opening hours",
+    titleFour: "Contact details"
+  }
   return (
     <>
       <Navbar />
       <Hero />
-      <About />
-      <Location />
-      <Baking />
-      <Contact />
-      <Footer />
+      <About aboutTitle="Who We Are?" />
+      <Location locationTitle="Our Location" />
+      <Baking bakingTitle="Our Baking" />
+      <Contact contactTitle="Contact Information" />
+      <Footer footerTitle={footerTitles} />
     </>
   );
 }
