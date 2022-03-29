@@ -1,0 +1,37 @@
+/***** contact *****/
+.contact{
+    background: #f8f8f8;
+}
+.contact .titleDesc{
+    text-align: center;
+}
+.contact .icon{
+    background: var(--primary-bg);
+    color: var(--white-text);
+    border: none;
+}
+.contactList li, .contact p{
+    line-height: 1.86em;
+    margin-bottom: 1.25rem;
+    color: var(--gray-text);
+    display: flex;
+}
+iframe#gmap_canvas {
+    width: 100%;
+}
+@media only screen and (min-width:1024px) {
+    .contactInfo{
+        width: 50%;
+        padding: 0.9375rem 1.25rem 0;
+        margin-top: 50px;
+    }
+    .contactMap{
+        width: 50%;
+        padding: 0.9375rem 1.25rem 0;
+    }
+    iframe#gmap_canvas {
+        width: 100%;
+        height: 453px;
+    }
+}
+/***** End contact *****/

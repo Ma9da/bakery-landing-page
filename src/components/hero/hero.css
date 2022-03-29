@@ -1,0 +1,108 @@
+/***** hero *****/
+.hero{
+    background: linear-gradient(
+        rgba(0,0,0,.3), 
+        rgba(0,0,0,.3)),url(../../assets/images/hero-img.jpeg) no-repeat 50%;
+    background-size: cover;
+    position: relative;
+    z-index: 1;
+}
+.hero .flexContainer{
+    flex-direction: column;
+    height: 100%;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+.heroHeader{
+    color: var(--white-text);
+    text-align: center;
+}
+.heroHeader h1{
+    font-size: 4.375rem;
+    margin-bottom: 1.875rem;
+}
+.heroHeader h4, .heroHeader p{
+    font-size: 1.5rem;
+    margin: 2.5rem 0;
+    color: #ccc;
+    line-height: 1.86em;
+}
+.active{
+    border: none;
+    background: var(--primary-bg);
+    margin-right: 0.625rem;
+}
+.disabled{
+    border: 2px solid var(--white-text);
+    background: none;
+}
+.active:hover, .disabled:hover{
+    background-color: var(--white-text);
+    color: var(--dark-text);
+    transition: all .3s;
+    -webkit-transition: all .3s;
+    -moz-transition: all .3s;
+    -ms-transition: all .3s;
+    -o-transition: all .3s;
+}
+.scroll{
+    display: block;
+    width: 2rem;
+    height: 3.125rem;
+    margin: auto;
+    border: 2px solid hsla(0,0%,100%,.7);
+    border-radius:24px;
+    position: relative;
+    bottom: 5%;
+    overflow: hidden;
+    cursor: pointer;
+    background: none;
+    -webkit-border-radius:24px;
+    -moz-border-radius:24px;
+    -ms-border-radius:24px;
+    -o-border-radius:24px;
+}
+.scroll a{
+    width: 5px;
+    height: 10px;
+    background-color:var(--white-text);
+    position: absolute;
+    animation: example 2s linear  infinite alternate;
+    transform: translate(-50%, -50%);
+}
+@keyframes example {
+    25%  { top:10px;}
+    50%  { top:20px;}
+    75%  { top:30px;}
+    100% { top:40px;}
+}
+.setting{
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    right: 0;
+    top: 25%;
+    padding: 4px 0 2px;
+    background-color: var(--white-text);
+    border-radius: 5px 0 0 5px;
+    font-size: large;
+    box-shadow: 0 0 8px 1px #979797;
+    z-index: 999;
+}
+.setting svg{
+    padding: 7px;
+}
+@media only screen and (min-width:1024px) {
+    .hero .flexContainer{
+        transform: translateY(20%);
+        -webkit-transform: translateY(20%);
+        -moz-transform: translateY(20%);
+        -ms-transform: translateY(20%);
+        -o-transform: translateY(20%);
+}
+    .hero{
+        height: 100vh;
+    }
+}
+/***** End hero *****/
