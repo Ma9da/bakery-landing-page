@@ -9,7 +9,7 @@ function Baking(props) {
         <section className="baking paddingY">
             <div className="container flexContainer">
                 <header className="bakingHeader">
-                    <h2 className="title">{props.bakingTitle}</h2>
+                    <h2 className="title" style={{'color':props.baking.color}}>{props.baking.title}</h2>
                     <p className="titleDesc">Learn more about them. We have worked truly hard to make them perfect for
                         every
                         use.

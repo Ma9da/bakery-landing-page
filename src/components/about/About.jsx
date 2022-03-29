@@ -11,7 +11,7 @@ function About(props) {
                     <img src={about1} alt="fresh baked bread" />
                 </figure>
                 <header className="aboutHeader">
-                    <h2 className="title">{props.aboutTitle}</h2>
+                    <h2 className="title" style={{ "color": props.about.color }}>{props.about.title}</h2>
                     <p className="titleDesc">
                         We have been operating for over 30 years and are Members of The Federation of Master Builders. We work on
                         projects big and small from small residential extensions to full house. We are so happy with this theme.

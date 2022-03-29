@@ -7,8 +7,8 @@ function Contact(props) {
         <section className="contact paddingY">
             <div className="container flexContainer">
                 <div className="contactInfo">
-                    <h2 className="title">
-                        {props.contactTitle}
+                    <h2 className="title" style={{'color':props.contact.color}}>
+                        {props.contact.title}
                     </h2>
                     <p className="titleDesc">
                         I am text block. Click edit button to change this text. Lorem ipsum dolor sit amet, consectetur

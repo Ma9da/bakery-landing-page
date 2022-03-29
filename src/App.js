@@ -7,6 +7,22 @@ import Location from "./components/location/Location";
 import Navbar from "./components/navbar/Navbar";
 
 function App() {
+  const about = {
+    title: "Who We Are?",
+    color: "#8e7754"
+  }
+  const location = {
+    title: "Our Location",
+    color: "#876445"
+  }
+  const baking = {
+    title: "Our baking",
+    color: "#51050F"
+  }
+  const contact = {
+    title: "Contact Information",
+    color: "#7E370C"
+  }
   const footerTitles = {
     titleOne: "About us",
     titleTwo: "Why we are special?",
@@ -17,10 +33,10 @@ function App() {
     <>
       <Navbar />
       <Hero />
-      <About aboutTitle="Who We Are?" />
-      <Location locationTitle="Our Location" />
-      <Baking bakingTitle="Our Baking" />
-      <Contact contactTitle="Contact Information" />
+      <About about={about} />
+      <Location location={location} />
+      <Baking baking={baking} />
+      <Contact contact={contact} />
       <Footer footerTitle={footerTitles} />
     </>
   );

@@ -7,7 +7,7 @@ function Location(props) {
         <section className="location about paddingY">
             <div className="container flexContainer">
                 <header className="aboutHeader">
-                    <h2 className="title">{props.locationTitle}</h2>
+                    <h2 className="title" style={{ "color": props.location.color }}>{props.location.title}</h2>
                     <p className="titleDesc">
                         We have been operating for over 30 years and are Members of The Federation of Master
                         Builders.
@@ -24,7 +24,7 @@ function Location(props) {
                     </p>
                 </header>
                 <figure className="aboutImg">
-                    <img src={about2} alt="backery"/>
+                    <img src={about2} alt="backery" />
                 </figure>
             </div>
         </section>
